@@ -1,0 +1,43 @@
+//- In pug we now writing html in a new way which is short and simple
+
+//- index.pug
+doctype html
+html
+  head
+    title Vinu Dance Academy
+    style
+      include ../static/style.css
+      
+  body
+    nav#navbar 
+        ul 
+            div#logo2
+              img(src="../static/logo2.png")
+            li #[a(href="/home") Home]        
+            li #[a(href="/") Services]
+            li #[a(href="/") About_Us]
+            li #[a(href="/contact") Contact]
+            div 
+              button.btn Sign IN 
+        
+    section#logo  
+        div 
+          h1 Vinu Dance Academy 
+          p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum corrupti necessitatibus quibusdam numquam voluptates, nobis placeat laudantium facere. Quod totam possimus nostrum nulla iusto culpa impedit dolorum, porro velit qui.
+    section#more 
+        h1 Our Notable Alumini
+        div.card
+          img(src="https://assets.gqindia.com/photos/5edf96e00f82d6d3cee5f0a9/16:9/pass/Hrithik-Roshan-with-a-net-worth-of-Rs-58.73-crore-is-among-the-top-20-richest-celebrities-in-India.jpg", alt="")
+        div.card
+          img(src="https://i2.cinestaan.com/image-bank/1500-1500/123001-124000/123582.jpg", alt="")
+        div.card
+          img(src="https://economictimes.indiatimes.com/thumb/msid-90680272,width-1200,height-900,resizemode-4,imgsize-21882/varun-dhawan-invests-in-curefoods.jpg?from=mdr", alt="")
+        div.card
+          img(src="https://images.indianexpress.com/2023/04/WhatsApp-Image-2023-04-20-at-2.22.05-PM.jpeg", alt="")
+        div.card
+          img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-OzywRX4eyPv6HVpn6RpFounvTa5mlbFtQ&usqp=CAU", alt="")
+        
+    footer#footer 
+        | Copyright © 2023 VinuDanceAcademy.com | All Rights Reserved
+    script
+      include ../static/index.js 

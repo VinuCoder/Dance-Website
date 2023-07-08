@@ -1,0 +1,21 @@
+doctype html 
+html
+  head
+    title Vinu Dance Academy  
+    block scripts             
+      script(src='../static/index.js')
+    block style
+  body
+    nav#navbar 
+        ul 
+            div#logo2
+              img(src="../static/logo2.png")
+            li #[a(href="/home") Home]        
+            li #[a(href="/") Services]
+            li #[a(href="/") About_Us]
+            li #[a(href="/contact") Contact]
+            div 
+              button.btn Sign IN 
+    block content
+    footer#footer 
+        | Copyright © 2023 VinuDanceAcademy.com | All Rights Reserved    

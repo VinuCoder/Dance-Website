@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* nav  */
+#navbar{
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li{
+    margin: 12px 14px;
+    padding: 4px 4px;
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    padding: 4px 4px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: wheat;
+}
+#navbar div .btn{
+    margin-left: 716px;
+    padding: 6px;
+    font-size: .9rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 11px;
+    border-radius: 12px;
+}
+#navbar div .btn:hover{
+    background-color: wheat;
+    color: black;
+}
+#logo2{
+    display: flex;
+    margin: 0px 10px ;
+}
+#logo2 img{
+    height: 108px;
+}
+
+/* Section 1*/
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 500px;
+    background: url("/static/background2.webp ")  no-repeat center / cover;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+#logo div{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#logo div p{
+    font-size: 1.3rem;
+    margin: 30px;
+}
+
+/* Section 2 */
+#more{
+    
+    /* justify-content: center; */
+    background-color: rgb(35 27 50);
+    height: 450px;
+    padding-top: 30px;
+}
+#more h1{
+    text-align: center;
+    color: azure;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+.card{
+    display: inline-block;
+    /* flex-direction: column; */
+    height: 208px;
+    border: 2px solid black;
+    margin: 65px 21px;
+    width: 260px;
+}
+
+.card img{
+    height: 208px;
+    width: 260px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+
+
+
+
