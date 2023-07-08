@@ -4,6 +4,7 @@
   "description": "This is the best academy ever for dance",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vinu Bhai",
